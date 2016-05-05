@@ -1,4 +1,18 @@
 Rails.application.routes.draw do
+  get 'pins/index'
+
+  get 'pins/show'
+
+  get 'pins/new'
+
+  get 'pins/create'
+
+  get 'pins/edit'
+
+  get 'pins/update'
+
+  get 'pins/destroy'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
